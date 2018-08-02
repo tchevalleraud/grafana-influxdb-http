@@ -1,0 +1,16 @@
+[influxdb]
+	probe_name  = "localhost"
+	address     = "http://127.0.0.1:8086"
+	database    = "http"
+	measurement = "http"
+	username    = "http"
+	password    = "http"
+
+[options]
+	interval    = "10s"
+
+[hosts]
+	hosts = [
+		"http://google.fr/",
+		"http://interdata.fr/",
+	]

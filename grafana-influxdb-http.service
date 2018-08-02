@@ -1,0 +1,9 @@
+[Unit]
+Description=http to influxDB
+After=network.target influxdb.service
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/grafana-influxdb-http
+User=root
+Group=root
